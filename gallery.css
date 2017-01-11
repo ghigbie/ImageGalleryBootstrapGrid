@@ -3,3 +3,16 @@
 body {
 	padding: 70px;
 }
+
+.jumbotron {
+	color: #2c3e50;
+}
+
+.navbar-inverse{
+	background: #ecf0f1;
+}
+
+/*.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+*/
