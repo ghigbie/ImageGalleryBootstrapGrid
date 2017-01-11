@@ -2,11 +2,13 @@
 <html>
 <head>
 	<title>Bootstrap Image Gallery</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"">
+	<link rel="stylesheet" type="text/css" href="gallery.css">
 </head>
 <body>
 <!-- navbar is below -->
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav_Demo" aria-expanded="false">
@@ -15,7 +17,7 @@
 			    <span class="icon-bar"></span>
 			    <span class="icon-bar"></span>
 			</button>
-			<a href="#" class="navbar-brand">IMGS</a>
+			<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> IMGS</a>
 		</div>
 
 		<div class="collapse navbar-collapse" id="bs-nav_Demo">
@@ -38,7 +40,7 @@
 
 <div class="container">
 	<div class="jumbotron">	
-		<h1><span class="glyphicon glyphicon-camera"></span>The Image Gallery</h1>
+		<h1><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> The Image Gallery</h1>
 		<p>A bunch of beautiful images that I didn't take (except for the first one!)</p>
 	</div>
 
